@@ -8,8 +8,8 @@ import reportWebVitals from './reportWebVitals';
 import axios from 'axios';
 
 const {REACT_APP_HOST} = process.env;
-axios.defaults.baseURL =    "http://localhost:3001";
-// REACT_APP_HOST || ~~~~^^
+axios.defaults.baseURL =   REACT_APP_HOST || "http://localhost:3001";
+
 
 const container = document.getElementById('root');
 const root = createRoot(container);
