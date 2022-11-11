@@ -1,0 +1,246 @@
+.warning {
+  border: solid red 2px;
+  border-radius: 7px;
+}
+
+.adminCountain {
+  display: flex;
+  justify-content: space-around;
+  background-image: url('../images/enfermeras1.png');
+  background-position: center;
+  background-size: contain;
+}
+
+.adminCountain button {
+  border: solid black 1px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  font-family: cursive;
+}
+
+.adminCountain button:hover {
+  background-color: rgba(0, 251, 255, 0.488);
+}
+
+.adminCountain button:active {
+  background-color: rgb(128, 128, 128);
+}
+
+.userSelected_Admin {
+  border: solid black 1px;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.container {
+  background: url('../images/fondo.png') ;
+  background-size: 100%;
+}
+
+.rows {
+  display: flex;
+  justify-content: space-around;
+}
+
+.carrusel {
+  max-width: 500px;
+}
+
+  .carrusel img {
+    width: 100%;
+  }
+
+.check {
+  padding: 3px;
+}
+.select {
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.showmodel {
+  display: flex;
+  justify-content: space-between;
+}
+
+table {
+  margin-bottom: 50px;
+
+}
+
+th {
+  width: 35px;
+  height: 35px;
+}
+
+  th button {
+    width: 50px;
+    height: 50px;
+  }
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+  color: antiquewhite;
+  background-color: rgba(70, 163, 244, 0.701);
+  font-family: cursive;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(177, 174, 174, 0.642);
+  font-family: cursive;
+}
+
+h3 {
+  border: solid black 1px;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: cursive;
+  /* background-color: rgba(70, 163, 244, 0.535); */
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+  color: antiquewhite;
+  background-color: rgba(70, 163, 244, 0.776);
+  font-family: cursive;
+  border: solid black 1px;
+  border-radius: 12px;
+}
+
+.linea {
+  border-top: 3px solid rgb(247, 4, 4);
+  padding: 20px 0px;
+}
+
+.products {
+  text-align: center;
+  background-image: url('../images/enfermeras1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.med {
+  min-height: 380px;
+}
+
+.final_model {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+  .final_model img {
+    max-width: 310px;
+    display: flex;
+  }
+
+.final_button {
+  width: 100%;
+  min-height: 60px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: cursive;
+  background-color: rgba(145, 244, 232, 0.555);
+}
+
+
+.formProd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+  .formProd label {
+    padding: 2px 10px;
+    font-family: cursive;
+    font-size: 18px;
+  }
+
+  .formProd input {
+    font-family: cursive;
+    border: solid 1px;
+    border-radius: 6px;
+    padding: 10px;
+    width: 100%;
+    margin: 10px;
+  }
+
+
+.displayPhotos img{
+  padding: 6px;
+}
+
+.prod_progres {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+}
+
+#autocomplete {
+  width: 280px;
+}
+
+.autocomplete-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: cursive;
+  width: 300px;
+}
+
+@media screen and (max-width: 900px) {
+  h3 {
+    background-color: rgba(253, 205, 142, 0.617);
+  }
+  .prod_ {
+    flex-direction: column;
+  }
+  .displayPhotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text {
+    padding: 0;
+    width: 100%;
+  }
+  .rows {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  table {
+    margin-bottom: none;
+  }
+  .products {
+    background-image: url('../images/enfermera.png');
+  }
+  .med {
+    min-height: 280px;
+  }
+  .adminCountain {
+    flex-direction: column-reverse;
+  }
+  .adminCountain button {
+    margin: 10px;
+    padding: 15px;
+  }
+}

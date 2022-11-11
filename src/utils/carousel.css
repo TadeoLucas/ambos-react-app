@@ -1,0 +1,96 @@
+.backgroundcarrucel {
+  background-image: url('../images/fondoInicio.png');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fixed-top1 {
+  position: absolute;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  border: solid black 1px;
+  border-radius: 10px;
+  background-color: rgb(245, 218, 184);;
+}
+
+.carru {
+  /* background-color: rgb(0, 0, 0); */
+  /* border: 7px rgba(0, 0, 255, 0.809) groove; */
+  padding-top: 10px;
+  max-width: 1020px;
+}
+
+.carru img {
+  width: 100%;
+}
+
+.myfluid-container {
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.my-toggler {
+  position: absolute;
+  right: 0;
+  width: 60px;
+  height: 50px;
+  margin-right: 5px;
+  border-color: white;
+}
+
+.my-button-nav-brand {
+  color: aliceblue;
+  font-size: medium;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.nav-butt {
+  border: solid 1px white;
+  border-radius: 3px;
+  padding: 0px 5px;
+  margin: 2px 8px;
+}
+
+.my-list-nav-place {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.my-list-nav-place button {
+  padding: 5px;
+  margin: 10px;
+}
+
+#wasa {
+padding-left: 60px;
+}
+
+@media screen and (max-width: 900px) {
+  .backgroundcarrucel {
+    display: block;
+  }
+  .title {
+    width: 100%;
+    background-color: antiquewhite;
+  }
+  h4 {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color: black;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  
+}
